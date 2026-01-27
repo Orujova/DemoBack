@@ -20,6 +20,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'myalmet.com',
+    'testenv.myalmet.com',
     'www.myalmet.com',
     '161.97.101.41',  # Server IP
 ]
@@ -175,6 +176,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "https://myalmet.com",
     "https://www.myalmet.com",
+    "https://testenv.myalmet.com",
     
 ]
 
