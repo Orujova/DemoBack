@@ -403,7 +403,7 @@ class TimeOffSettings(models.Model):
     
     # HR notification emails
     hr_notification_emails = models.TextField(
-        default='hr@almettrading.com',
+        default='n.orujova@almettrading.com',
         help_text="HR email-ləri (vergüllə ayrılmış)"
     )
     
@@ -440,7 +440,7 @@ class TimeOffSettings(models.Model):
                 'default_monthly_hours': Decimal('4.0'),
                 'max_request_hours': Decimal('8.0'),
                 'min_advance_hours': 24,
-                'hr_notification_emails': 'hr@almettrading.com',
+                'hr_notification_emails': 'n.orujova@almettrading.com',
                 'enable_auto_approval': False,
                 'is_active': True
             }

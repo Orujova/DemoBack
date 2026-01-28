@@ -280,7 +280,7 @@ class ContractRenewalRequest(SoftDeleteModel):
         from .system_email_service import system_email_service
         
         try:
-            hr_email = "hr@almettrading.com"
+            hr_email = "n.orujova@almettrading.com"
             
             subject = f"Contract Renewal - Action Required - {self.employee.full_name}"
             
@@ -583,7 +583,7 @@ class ProbationReview(SoftDeleteModel):
                 recipients.append(self.employee.line_manager.email)
             
             # HR email
-            recipients.append("hr@almettrading.com")
+            recipients.append("n.orujova@almettrading.com")
             
             if not recipients:
                 return

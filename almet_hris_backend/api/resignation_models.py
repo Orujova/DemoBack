@@ -215,7 +215,7 @@ class ResignationRequest(SoftDeleteModel):
         from .system_email_service import system_email_service
         
         try:
-            hr_email = "hr@almettrading.com"
+            hr_email = "n.orujova@almettrading.com"
             
             subject = f"Resignation Approval Required - {self.employee.full_name}"
             
